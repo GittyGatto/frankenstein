@@ -21,8 +21,7 @@ public class UserService {
 
     @Transactional(propagation = Propagation.REQUIRES_NEW)
     public User loadUserByUsername(String name) throws UsernameNotFoundException {
-        //UserEntity userEntity = userRepository.findByUserName(name).orElseThrow(() -> new UsernameNotFoundException(String.format("User %s does not exist!", name)));
-        List<UserEntity> userEntity = userRepository.findById(1);
-        return new User(userEntity.get(0));
+        UserEntity userEntity = userRepository.findByUserName(name).orElseThrow(() -> new UsernameNotFoundException(String.format("User %s does not exist!", name)));
+        return new User(userEntity);
     }
 }
