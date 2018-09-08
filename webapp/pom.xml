@@ -25,7 +25,7 @@
                             <goal>repackage</goal>
                         </goals>
                         <configuration>
-                            <mainClass>com.henning.frankenstein.frankensteinWebappMain</mainClass>
+                            <mainClass>com.henning.frankenstein.FrankensteinWebappMain</mainClass>
                         </configuration>
                     </execution>
                 </executions>
