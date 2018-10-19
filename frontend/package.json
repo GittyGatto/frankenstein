@@ -1,8 +1,4 @@
 {
-  "name": "indivumed-sample-finder",
-  "version": "0.0.1",
-  "description": "Indivumed Sample Finder",
-  "main": "''",
   "scripts": {
     "build": "webpack --config webpack.production.config.js --progress --profile --colors",
     "start": "webpack-dev-server --progress --profile --colors",
@@ -13,9 +9,6 @@
     "type": "git",
     "url": "*private*"
   },
-  "author": "arcus(x) GmbH",
-  "license": "Proprietary",
-  "homepage": "https://www.indivumed.com",
   "dependencies": {
     "babel-preset-es2016": "^6.24.1",
     "copy-webpack-plugin": "^4.0.1",
@@ -60,7 +53,7 @@
     "react-hot-loader": "^3.0.0-beta.6",
     "style-loader": "^0.16.1",
     "url-loader": "0.5.7",
-    "webpack": "^2.2.1",
+    "webpack": "^2.7.0",
     "webpack-cleanup-plugin": "^0.4.2",
     "webpack-dashboard": "^0.3.0",
     "webpack-dev-server": "^2.4.1"
